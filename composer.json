@@ -1,0 +1,26 @@
+{
+    "name": "pushpender/mail_tracker",
+    "description": "This package will be used to track email and click on emails.",
+    "type": "composer-plugin",
+    "require": {
+        "illuminate/support": "^10.11",
+        "guzzlehttp/guzzle": "^7.6",
+        "aws/aws-php-sns-message-validator": "^1.8",
+        "aws/aws-sdk-php": "^3.269"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.1",
+        "orchestra/testbench": "^8.5",
+        "mockery/mockery": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pushpender\\MailTracker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pushpender"
+        }
+    ]
+}
