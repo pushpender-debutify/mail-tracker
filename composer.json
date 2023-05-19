@@ -1,7 +1,8 @@
 {
     "name": "pushpender/mail_tracker",
     "description": "This package will be used to track email and click on emails.",
-    "type": "composer-plugin",
+    "type": "library",
+    "minimum-stability": "dev",
     "require": {
         "illuminate/support": "^10.11",
         "guzzlehttp/guzzle": "^7.6",
