@@ -1,6 +1,6 @@
 <?php
 
-namespace jdavidbakr\MailTracker\Console;
+namespace Pushpender\MailTracker\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
