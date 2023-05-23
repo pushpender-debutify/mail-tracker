@@ -29,10 +29,10 @@ class MailTrackerServiceProvider extends ServiceProvider
             $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
         // }
 
-        $this->publishConfig();
+        // $this->publishConfig();
 
         // Register console commands
-        $this->registerCommands();
+        // $this->registerCommands();
         
         $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
 
@@ -47,20 +47,20 @@ class MailTrackerServiceProvider extends ServiceProvider
         });
     }
 
-    protected function publishConfig()
-    {
-            $this->publishes([
-                __DIR__.'/../config/mail-tracker.php' => config_path('mail-tracker.php')
-            ], 'config');
-    }
+    // protected function publishConfig()
+    // {
+    //         $this->publishes([
+    //             __DIR__.'/../config/mail-tracker.php' => config_path('mail-tracker.php')
+    //         ], 'config');
+    // }
 
-    public function registerCommands()
-    {
-        if ($this->app->runningInConsole()) {
-            $this->commands([
-                Console\MigrateRecipients::class,
-            ]);
-        }
-    }
+    // public function registerCommands()
+    // {
+    //     if ($this->app->runningInConsole()) {
+    //         $this->commands([
+    //             Console\MigrateRecipients::class,
+    //         ]);
+    //     }
+    // }
 
 }
