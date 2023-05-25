@@ -3,6 +3,7 @@
     "description": "This package will be used to track email and click on emails.",
     "type": "library",
     "minimum-stability": "dev",
+    "prefer-stable" : true
     "require": {
         "illuminate/support": "^10.11",
         "guzzlehttp/guzzle": "^7.6",
@@ -27,7 +28,6 @@
     "extra": {
         "laravel": {
             "providers": [
-                
                 "Pushpender\\MailTracker\\MailTrackerServiceProvider"
             ]
         }
