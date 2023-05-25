@@ -23,5 +23,13 @@
         {
             "name": "Pushpender"
         }
-    ]
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                
+                "Pushpender\\MailTracker\\MailTrackerServiceProvider"
+            ]
+        }
+    }
 }
