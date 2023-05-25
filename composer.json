@@ -1,5 +1,5 @@
 {
-    "name": "pushpender/mail_tracker",
+    "name": "pushpender-debutify/mail_tracker",
     "description": "This package will be used to track email and click on emails.",
     "type": "library",
     "minimum-stability": "dev",
